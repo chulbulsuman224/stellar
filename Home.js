@@ -25,7 +25,7 @@ export default class HomeScreen extends Component{
                         <Text style={styles.bgDigit}>2</Text>
                         <Image source={require("../assets/star_map.png")} style={styles.iconImage}></Image>
                     </TouchableOpacity>
-
+                                                                                                            
                     <TouchableOpacity style={styles.routeCard} 
                     onPress={()=>this.props.navigation.navigate("Daily Picture")}>
                         < Text style={styles.routeText}>Daily Pic</Text>
